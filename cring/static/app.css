@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Palette+Mosaic&Inconsolata:wght@200;300;400;&display=swap');
+
+body{
+    font-family: 'Inconsolata', monospace;
+}
+
+.crypto-coin-icon{
+    width: 20px;
+}
+
+
+#crypto-pricing-table-wrapper .fa-dollar-sign{
+    color: #FFD700;
+}
+
+#crypto-pricing-table-wrapper .fa-dollar-sign .text-black{
+    font-size: 0.8rem;
+    letter-spacing: 1.5px;
+}
+
+#crypto-pricing-table-wrapper .symbol{
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: #727272;
+}
+
+.myNavbar{
+    height: 8vh;
+    color: #fff;
+    background: #2c2c2e;
+}
+
+.logo-text{
+    font-family: 'Palette Mosaic', cursive;
+    color: whitesmoke;
+}
+
+.logo-text:hover{
+    color: rgba(245, 245, 245, 0.767);
+}
+
+a{
+    color: wheat;;
+}
+
+/*  */
+
+@media only screen and (max-width: 967px) {
+    body {
+        font-size: 0.9rem;
+    }
+    #crypto-pricing-table-wrapper .fa-dollar-sign .text-black{
+        font-size: 0.7rem;
+        letter-spacing: 1px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+      font-size: 0.8rem;
+    }
+    #crypto-pricing-table-wrapper .fa-dollar-sign .text-black{
+        letter-spacing: 0px;
+    }
+}
